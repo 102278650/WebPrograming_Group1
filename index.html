@@ -3,50 +3,53 @@
 
 <head>
     <title>Page Title</title>
+
+    <style>
+        .header-brown {
+            font-family: Comic Sans MS;
+            color: #7E6000;
+        }
+
+        .square {
+            width: 200px;
+            height: 200px;
+            margin: 25px;
+            display: inline-block;
+            line-height: 200px;
+            background-color: #7E6000;
+            border: solid 1px red;
+        }
+        .header-brown2 {
+            color:#7E6000;
+        }
+
+        .border {
+            border: dashed 1.5px black;
+        }
+
+    </style>
 </head>
 
 <body style="margin: 0 10%; text-align: center;">
-    <h1 style="
-     font-family: Comic Sans MS; 
-     color: #7E6000;">
+    <h1 class="header-brown">
         H1 - Simple Brown Background
     </h1>
 
     <div>
-        <div style="
-                    width: 205px;
-                    height: 205px; 
-                    margin: 25px;
-                    display: inline-block;
-                    line-height: 205px;
-                    background-color: #7E6000;">
+        <div class="square">
             Square
         </div>
-        <div style="
-                    width: 200px;
-                    height: 200px; 
-                    margin: 25px;
-                    display: inline-block;
-                    line-height: 200px;
-                    background-color: #7E6000;">
+        <div class="square">     
             Square
         </div>
-        <div style="
-                    width: 200px;
-                    height: 200px; 
-                    margin: 25px;
-                    display: inline-block;
-                    line-height: 200px;
-                    background-color: #7E6000;">
+        <div class="square">
             Square
         </div>
     </div>
 
-    
 
-
-    <hr style="border: dashed 1.5px black;" />
-    <h2 style="color: #7E6000;">H2 - Lorem Ipsum</h2>
+    <hr class="border"/>
+    <h2 class="header-brown2">H2 - Lorem Ipsum</h2>
     <p>RANDOM TEXT HERE v RANDOM TEXT HERE v RANDOM TEXT HERE RANDOM TEXT HERE RANDOM TEXT HERE RANDOM TEXT HERE RANDOM
         TEXT HERE RANDOM TEXT HERERANDOM TEXT HERERANDOM TEXT HERE RANDOM TEXT HERE</p>
 </body>
